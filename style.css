@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+    background-color:rgb(0, 0, 0);
+    /* height: 100%; */
+        /* padding: 10px; */
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    /* border: 1px solid orangered; */
+
+}
+
+
+nav {
+    /* background-color:rgb(126, 16, 16); */
+    display: flex;
+    /* padding: 10px; */
+    height: 55px;
+    width: 100%;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 40px;
+}
+
+nav span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    /* background-color: #d5ff02; */
+}
+
+.primary-links {
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 150px;
+    /* background-color: blue; */
+}
+
+.secondary-links {
+    width: 20%;
+    /* justify-content: space-evenly; */
+    margin-left: 180px;
+    padding-right: 50px;
+    /* background-color: blue; */
+}
+.secondary-links ul i{
+    font-size: 20px;
+}
+.yellow-btn{
+    height: 34px;
+    width: 150px;
+    /* background-color: yellow; */
+    /* background-color: #ECF87F; */
+    font-size: 16px;
+    letter-spacing: -1;
+    font-weight: 600;
+    background-color: #d5ff02;
+    margin-top: 8px;
+    
+}
+.hero-section{
+/* background-color:black; */
+/* height: 100vh; */
+position: relative;
+}
+
+.text{
+    
+    background-color: rgb(3, 3, 3);
+       display: grid;
+   place-items: center;
+      color: white;
+   margin-top: 80px;
+   /* top: 0%; */
+   /* color: rgba(255,255,255,.3); */
+     /* text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5); */
+     
+}
+#first-p{
+    /* color: grey; */
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+} 
+.text h1{
+   
+       font-size: 55px;
+       font-family: 'Dongle', sans-serif;
+       line-height: 46px;
+       margin-left: 50px;
+       letter-spacing: 3px;
+
+
+}
+#second-p{
+   color: rgb(176, 173, 173);
+   font-size: 17px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   /* font-weight: 100; */
+}
+
+
+
+.text button{
+    width: 12%;
+    height:58px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #d5ff02;
+
+}
+
+.cards{
+    margin-left: 130px;
+    /* padding: 50px; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+.card{
+
+    padding: 20px;
+    width: 300px;
+    height: 280px;
+    background-color:rgb(26, 26, 26);
+       align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid gray; */
+    z-index: 1;
+
+}
+.card img{
+   
+  width: 50%;
+  
+    /* padding-left: 80px; */
+  padding-left: 40px;
+   color:rgb(26, 26, 26);
+ 
+}
+.card h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+  #p1{
+    color: #a7a1a1;
+    font-size: 19px;
+    letter-spacing: 2;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+/* @keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+} */
+
+/* .card img{
+    height: 40px;
+    margin-left: 30px;
+} */
+
+.top{
+   background-color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 660px;
+    width: 10%;
+    left: 450px;
+    z-index: 2;
+     
+}
+
+  
+
+.left{
+    position: relative;
+    overflow-x: hidden;
+    bottom: 550px;
+      /* right: 30px; */
+    /* z-index: ; */
+}
+.right {
+    position: absolute;
+    bottom: 980px;
+     left: 1284px; 
+   top: 40px;
+    /* background-image: url(./images/right-2-removebg-preview.png); */
+   
+} 
+@media(max-width : 768px){
+
+    
+   
+        
+
+}
